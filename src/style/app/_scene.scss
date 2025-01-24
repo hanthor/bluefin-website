@@ -1,3 +1,5 @@
+@use "../setup/mixins" as *;
+
 .scene-components {
   // SECTION: debug
   z-index: 10;

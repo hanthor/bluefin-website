@@ -1,3 +1,5 @@
+@use "../../setup/mixins" as *;
+
 #scene-news {
   background-color: var(--color-bg-light);
   min-height: unset;

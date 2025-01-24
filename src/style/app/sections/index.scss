@@ -1,13 +1,16 @@
-@import "./faq";
-@import "./mission";
-@import "./footer";
-@import "./gamers";
-@import "./devs";
-@import "./users";
-@import "./landing";
-@import "./video";
-@import "./news";
-@import "./picker";
+@use "../../setup/mixins" as *;
+
+@use "./faq";
+@use "./mission";
+@use "./footer";
+@use "./gamers";
+@use "./devs";
+@use "./users";
+@use "./landing";
+@use "./video";
+@use "./news";
+@use "./picker";
+
 
 .brand-grid {
   @include grid(0, 2);

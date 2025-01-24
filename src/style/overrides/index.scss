@@ -1,3 +1,4 @@
-@import "./desktop";
-@import "./tablet";
-@import "./phone";
+@use "../setup/mixins" as *;
+@use "./desktop";
+@use "./tablet";
+@use "./phone";

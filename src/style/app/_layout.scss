@@ -1,3 +1,5 @@
+@use "../setup/mixins" as *;
+
 .section-wrap {
   display: block;
   min-height: 100vh;

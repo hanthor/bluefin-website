@@ -1,3 +1,5 @@
+@use "../../setup/mixins" as *;
+
 #scene-landing {
   @include flex(0, flex-start, $d: column);
   padding-top: 10%;

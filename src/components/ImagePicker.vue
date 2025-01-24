@@ -53,9 +53,7 @@ const { t } = useI18n<MessageSchema>({
 
 // Ofc this is inneficient, but its much better than the old solution.
 <style scoped>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 .question-select {
   @apply rounded-xl bg-black p-5 text-white w-full xl:w-full xl:max-w-xl border-blue-500 border-s-8;

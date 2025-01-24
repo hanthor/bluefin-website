@@ -1,3 +1,5 @@
+@use "../setup/mixins" as *;
+
 .parallax-wrap {
   position: fixed;
   inset: -10%;

@@ -1,3 +1,5 @@
+@use "../../setup/mixins" as *;
+
 #scene-picker {
   background-color: var(--color-bg);
   min-height: unset;

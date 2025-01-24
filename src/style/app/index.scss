@@ -1,12 +1,13 @@
 // Main app styles
-@import "./layout";
-@import "./scene";
-@import "./navigation";
-@import "./animations";
-@import "./loading";
-@import "./sections/";
-@import "./parallax";
-@import ".button";
+@use "../setup/mixins" as *;
+@use "./layout";
+@use "./scene";
+@use "./navigation";
+@use "./animations";
+@use "./loading";
+@use "./sections/" as sections;
+@use "./parallax";
+@use ".button" as button;
 
 h1 {
   @include font(700);

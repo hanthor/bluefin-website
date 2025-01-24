@@ -1,3 +1,5 @@
+@use "../setup/mixins" as *;
+
 .btn {
   @include font(700);
   @include t();

@@ -1,4 +1,10 @@
-@import "./setup/";
+@use "./setup";
+@use "./app";
+@use "./setup/mixins" as *;
+@use "./overrides";
+@import "tailwindcss";
+
+
 
 html {
   @include font(400);
@@ -13,7 +19,3 @@ html {
     box-sizing: border-box;
   }
 }
-
-@import "./app/";
-
-@import "./overrides/";

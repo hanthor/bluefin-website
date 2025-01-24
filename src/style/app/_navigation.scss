@@ -1,3 +1,5 @@
+@use "../setup/mixins" as *;
+
 #navigation {
   position: fixed;
   bottom: 1.5em;

@@ -1,3 +1,5 @@
+@use "../setup/mixins" as *;
+
 .fade-enter-active,
 .fade-leave-active {
   transition: 0.75s all ease-in-out;
